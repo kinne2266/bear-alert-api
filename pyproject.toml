@@ -1,0 +1,28 @@
+[project]
+name = "bear-alert-api"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "kinne2266", email = "kinne2266@gmail.com" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.163.0",
+    "httpx>=0.28.1",
+    "python-multipart>=0.0.33",
+    "uvicorn>=0.54.0",
+]
+
+
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "ruff>=0.17.5",
+]
+
+
+
+[tool.pytest.ini_options]
+pythonpath = ["."]

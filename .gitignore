@@ -218,3 +218,13 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# このプロジェクト専用
+videos/
+*.mp4
+*.webm
+runs/
+events.db
+snapshots/
